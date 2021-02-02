@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{7B16C68D-5876-FB6C-D5B3-B1C65ED786AC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Codes/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Codes/PlayerMove.cs" Line="248" Column="52" />
+      <File FileName="Assets/Codes/GameManager.cs" Line="37" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QuizMario_1124" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Codes" expanded="True">
+                <Node name="GameManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="da483e65-3bb2-41b6-94ff-62651ea4bc96" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

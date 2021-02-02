@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{59027703-7705-0110-71EE-86273A9B0E7F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Codes/NpcManager.cs">
+    <Files>
+      <File FileName="Assets/Codes/MenuManager.cs" Line="24" Column="6" />
+      <File FileName="Assets/Codes/GameManager.cs" Line="60" Column="51" />
+      <File FileName="Assets/Codes/PlayerMove.cs" Line="65" Column="52" />
+      <File FileName="Assets/Codes/NpcManager.cs" Line="71" Column="59" />
+      <File FileName="Assets/Codes/SoundManager.cs" Line="69" Column="37" />
+      <File FileName="Assets/Codes/TalkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Codes/ObjData.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QuizMario_1124v2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Codes" expanded="True">
+                <Node name="NpcManager.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="00b4448f-9635-442e-b969-c85a17989a34" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

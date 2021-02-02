@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{3EE0E6F6-33A5-C2F7-7CBE-C8D417B8ADCE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Codes/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Codes/PlayerMove.cs" Line="37" Column="8" />
+      <File FileName="Assets/Codes/GameManager.cs" Line="39" Column="8" />
+      <File FileName="Assets/Codes/NpcManager.cs" Line="25" Column="51" />
+      <File FileName="Assets/Codes/UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Codes/MenuManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2da8d9ec-c96b-47ea-80a5-c0e72ae6da7a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
