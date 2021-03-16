@@ -25,7 +25,7 @@ Unity를 활용하여 만든 2D 횡스크롤 게임
   lifePoint--;
   UIlife[lifePoint].color = new Color(1, 1, 1, 0.4f);
   ```
-* 과일 포인트 획득 시 UI에 출력
+* 과일 포인트 획득 시 UI에 출력해주기
 ![이동 및 점프, 과일포인트](https://user-images.githubusercontent.com/62532316/110417332-bc936680-80d8-11eb-92b1-0d3cdcc878e9.gif)
 
 * npc 대화
