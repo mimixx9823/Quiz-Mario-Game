@@ -4,13 +4,15 @@ Unity를 활용하여 만든 2D 횡스크롤 게임
 게임 <슈퍼마리오>에서 영감을 받아 제작한 게임이다.
 
 ## 주요기능
+> 스크립트 위치 👉🏻 `Assets/Codes/..`
+
 * 메인 화면 버튼 애니메이션(확대) 효과
 
 ![시작 화면 버튼 효과](https://user-images.githubusercontent.com/62532316/110442342-15c1c100-80fe-11eb-9f9f-364217ad5bb3.gif)
 
 * 키보드 입력을 통한 캐릭터 이동 및 점프, 더블점프
 * 맵에 있는 지형들은 타일맵으로 구성
-* 게임 UI : GameManager.cs속 변수들 가공하여 출력
+* 게임 UI : `GameManager.cs`속 변수들 가공하여 출력
   - 🍒 : 과일 포인트(fruitPoint)
   - 🏆 : 현재 스테이지에 남아있는 퀴즈 포인트(quizPoint)
   ```cs
@@ -63,7 +65,15 @@ Unity를 활용하여 만든 2D 횡스크롤 게임
 
 ![Npc대화 퀴즈 풀이](https://user-images.githubusercontent.com/62532316/110441598-4d7c3900-80fd-11eb-8baf-c52b32b2c6fc.gif)
 
-* 몬스터 피격 시 일정시간 무적판정, 생명력 깎임
-* 풀지 못한 퀴즈가 있을 때 경고 메세지 출력
+* 몬스터, 장애물 피격 시 일정시간 무적판정, 생명력 깎임
+* 몬스터 머리 위에서 밟으면 몬스터 죽임
+  - 무적판정은 Layer를 player/playerDamaged 로 나누어 playerDamaged상태일 때는 몬스터나 장애물에 방해받지 않도록 함
+  - `PlayerMove.cs/OnDamaged(),OnAttack()`에 구현
+  
+![피격, 몬스터 공격](https://user-images.githubusercontent.com/62532316/111252938-91b78e00-8655-11eb-8f60-3d1a2e5ae4b1.gif)
+
+* 현재 스테이지 에서 풀지 못한 퀴즈가 있을 때 경고 메세지 출력
+
+
 * 퀴즈를 다 풀고 도착지점에 접근 시 다음 스테이지로 넘어감 
 
