@@ -1,22 +1,27 @@
 # QuizMario Game
-Unity를 활용하여 만든 2D 횡스크롤 게임
-
+Unity를 활용하여 만든 2D 횡스크롤 게임<br>
 게임 <슈퍼마리오>에서 영감을 받아 제작한 게임이다.
-
-
+<br>
+<br>
+<br>
+<br>
 ## 개발기간
 2020.09 ~ 2020.12 (3개월)
-
-
+<br>
+<br>
+<br>
+<br>
 ## 참여도
 2인 제작 프로젝트
 참여도 : 60%
-
-
+<br>
+<br>
+<br>
+<br>
 ## 내가 직접 구현한 주요기능
 > 구현  위치 👉🏻 `Assets/Codes/..`
 
-* 메인 화면 버튼 애니메이션(확대) 효과
+* 메인 화면 버튼 애니메이션(확대) 효과<br>
 ![시작 화면 버튼 효과](https://user-images.githubusercontent.com/62532316/110442342-15c1c100-80fe-11eb-9f9f-364217ad5bb3.gif)
 
 * 키보드 입력을 통한 캐릭터 이동 및 점프, 더블점프
@@ -35,8 +40,7 @@ Unity를 활용하여 만든 2D 횡스크롤 게임
   lifePoint--;
   UIlife[lifePoint].color = new Color(1, 1, 1, 0.4f);
   ```
-* 과일 포인트 획득 시 UI에 출력해주기
- 
+* 과일 포인트 획득 시 UI에 출력해주기<br>
 ![이동 및 점프, 과일포인트](https://user-images.githubusercontent.com/62532316/110417332-bc936680-80d8-11eb-92b1-0d3cdcc878e9.gif)
 
 * npc 대화
@@ -79,12 +83,10 @@ Unity를 활용하여 만든 2D 횡스크롤 게임
   - `PlayerMove.cs/OnDamaged(),OnAttack()`에 구현 
 ![피격, 몬스터 공격](https://user-images.githubusercontent.com/62532316/111252938-91b78e00-8655-11eb-8f60-3d1a2e5ae4b1.gif)
 
-* 현재 스테이지 에서 풀지 못한 퀴즈가 있을 때 경고 메세지 출력
-
+* 현재 스테이지 에서 풀지 못한 퀴즈가 있을 때 경고 메세지 출력<br>
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/62532316/111254849-42735c80-8659-11eb-95aa-0e54d79c1f14.gif)
 
-* 퀴즈를 다 풀고 도착지점에 접근 시 다음 스테이지로 넘어감 
-
+* 퀴즈를 다 풀고 도착지점에 접근 시 다음 스테이지로 넘어감 <br>
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/62532316/111254855-456e4d00-8659-11eb-97e5-b9d646ebfa54.gif)
 
 
